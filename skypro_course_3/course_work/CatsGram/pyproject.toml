@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "catsgram"
+version = "0.1.0"
+description = ""
+authors = ["Constantine Putilov <putilov.constantine@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.3"
+flask-sqlalchemy = "^3.0.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
